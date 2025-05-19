@@ -1,0 +1,71 @@
+.border{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+} 
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey1{
+    background-color: #121212;
+}
+.bg-grey2{
+    background-color: #1f1f1f;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m1{
+    margin: 5px;
+}
+.p1{
+    padding: 20px;
+}
+.font1{
+    font-family: sans-serif;
+}
+.space-btw{
+    justify-content: space-between;
+}
+.circular{
+    border-radius: 50%;
+}
+.f-size1{
+    font-size: large;
+}
+.create {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;                    /* space between icon and text */
+  padding: 8px 20px;           /* vertical | horizontal */
+  background-color: white;   /* Spotify green */
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  border: none;
+  border-radius: 500px;        /* pill shape */
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.fcolor{
+    color: #b3b3b3;
+}
+
+
