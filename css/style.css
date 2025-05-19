@@ -5,11 +5,12 @@
 
 .left{
     width: 25vw;
-    padding: 15px;
+    padding: 15px 2px 15px 15px;
 }
 
 .right{
     width: 75vw;
+    padding: 15px 15px 15px 0px;
 }
 
 .home ul li{
@@ -37,6 +38,7 @@
 .library{
     font-weight: bold;
     padding: 10px;
+    height: 80vh;
 }
 .library div{
     padding: 10px;
@@ -75,4 +77,37 @@
 .footerleft div a{
     text-decoration: none;
     color: inherit;
+}
+
+.barbutton{
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    border-radius: 50%;
+    border-width: 0px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.bar{
+    padding: 5px;
+}
+.sign{
+    margin-left: 1.5vw;
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    width: 110px;
+    border-radius: 500px;
+    justify-content: center;
+    font-weight:bolder;
+    background-color: white;
+    border-width: 0px;
+    cursor: pointer;
+}
+.signup{
+    margin-left: 3vw;
 }
