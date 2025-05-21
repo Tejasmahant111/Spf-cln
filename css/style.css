@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
 }
 
 .left{
@@ -60,7 +61,6 @@
 }
 .library div img{
     height: 23px;
-    border-radius: 500px;
 }
 .text1{
     font-weight: 300;
@@ -110,4 +110,4 @@
 }
 .signup{
     margin-left: 3vw;
-}
+} 

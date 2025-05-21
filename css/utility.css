@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .border{
     border-style: solid;
     border-width: 2px;
@@ -37,13 +38,11 @@
 .p1{
     padding: 20px;
 }
-.font1{
-    font-family: sans-serif;
-}
+
 .space-btw{
     justify-content: space-between;
 }
-.circular{
+.circular{ 
     border-radius: 50%;
 }
 .f-size1{
@@ -68,4 +67,16 @@
     color: #b3b3b3;
 }
 
-
+/* design of cards */
+.thumbnail{
+    height: 171.5px;
+    width: 171.5px;
+}
+.singers{
+    margin: 20px 10px 0px 0px;
+    width: 171.5px;
+}
+.card{
+    margin: 0px 10px 10px 10px;
+}
+/* end of design of cards */
