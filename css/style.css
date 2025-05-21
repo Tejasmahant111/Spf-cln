@@ -1,20 +1,20 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     font-family: "Roboto", sans-serif;
 }
 
-.left{
+.left {
     width: 25vw;
     padding: 15px 2px 15px 15px;
 }
 
-.right{
+.right {
     width: 75vw;
     padding: 15px 15px 15px 0px;
 }
 
-.home ul li{
+.home ul li {
     display: flex;
     width: 15px;
     list-style: none;
@@ -22,64 +22,76 @@
     padding-top: 15px;
     font-weight: bold;
 }
-.home ul{
+
+.home ul {
     margin-left: 35px;
 }
-.button button{
+
+.button button {
     font-size: x-large;
     width: 30px;
     height: 30px;
-    all: unset;                   
-    display: inline-block;        
+    all: unset;
+    display: inline-block;
     cursor: pointer;
 }
-.logo div{
+
+.logo div {
     padding: 15px;
 }
-.library{
+
+.library {
     font-weight: bold;
     padding: 10px;
     height: 80vh;
 }
-.library div{
+
+.library div {
     padding: 10px;
 }
+
 .plus {
     margin-left: 120px;
     display: inline-flex;
     align-items: center;
-    gap: 8px;                    /* space between icon and text */
-    padding: 8px 12px;         
+    gap: 8px;
+    /* space between icon and text */
+    padding: 8px 12px;
     color: white;
     font-size: 20px;
     font-weight: 400;
     line-height: 1;
     border: none;
-    border-radius: 100%;        
+    border-radius: 100%;
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
-.library div img{
+
+.library div img {
     height: 23px;
 }
-.text1{
+
+.text1 {
     font-weight: 300;
     font-size: 15px;
 }
-.head1{
+
+.head1 {
     margin: 0px;
     padding: 0px;
 }
-.footerleft div{
+
+.footerleft div {
     margin: 10px;
     font-size: 11px;
 }
-.footerleft div a{
+
+.footerleft div a {
     text-decoration: none;
     color: inherit;
 }
 
-.barbutton{
+.barbutton {
     margin-left: 10px;
     display: inline-flex;
     align-items: center;
@@ -92,10 +104,12 @@
     font-size: 22px;
     cursor: pointer;
 }
-.bar{
+
+.bar {
     padding: 5px;
 }
-.sign{
+
+.sign {
     margin-left: 1.5vw;
     display: inline-flex;
     align-items: center;
@@ -103,11 +117,49 @@
     width: 110px;
     border-radius: 500px;
     justify-content: center;
-    font-weight:bolder;
+    font-weight: bolder;
     background-color: white;
     border-width: 0px;
     cursor: pointer;
 }
-.signup{
+
+.signup {
     margin-left: 3vw;
-} 
+}
+
+.Trending {
+    max-width: 1200px;
+    overflow: auto;
+}
+
+/* play button on cards */
+.spotify-play-button {
+    position: absolute;
+    top: 115px;
+    left: 115px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #1db954;
+    /* Spotify green */
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.spotify-play-button:hover {
+    background-color: #1ed760;
+    /* lighter green on hover */
+    transform: scale(1.05);
+}
+
+.spotify-play-button:active {
+    transform: scale(0.95);
+}
